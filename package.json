@@ -1,0 +1,12 @@
+{
+  "name": "babb-codecs",
+  "version": "1.0.0",
+  "description": "Canonical codec library for babb/workpads tools",
+  "workspaces": [
+    "workpads/bitpad"
+  ],
+  "scripts": {
+    "test:bitpad": "cd workpads/bitpad && npm test"
+  },
+  "license": "MIT"
+}
