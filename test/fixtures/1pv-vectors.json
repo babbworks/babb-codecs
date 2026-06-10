@@ -1,0 +1,114 @@
+{
+  "version": "1pv-native-2b",
+  "generated": "2026-05-24",
+  "spec": "workpads-standard/codec.md §5.2–5.3",
+  "vectors": [
+    {
+      "id": "invoice-live",
+      "record": {
+        "job": "Vector invoice",
+        "customer": "Acme",
+        "record_type": "invoice",
+        "date": "2026-05-20",
+        "amount": "100.00",
+        "currency": "GBP",
+        "chain_mode": "LIVE",
+        "details": "Line item"
+      },
+      "url": "workpads.me/p#1pv/W8AowBDO1OHCweDAIMAgxKAuIMHAwMzAF5aaXJJfpJCZV5afmZzKwOKYnJvKwsDAorqElwFIc_pk5qUqZJak5jIwhNUCAA",
+      "hash": "1pv/W8AowBDO1OHCweDAIMAgxKAuIMHAwMzAF5aaXJJfpJCZV5afmZzKwOKYnJvKwsDAorqElwFIc_pk5qUqZJak5jIwhNUCAA"
+    },
+    {
+      "id": "ack-masks",
+      "record": {
+        "job": "Vector ack",
+        "customer": "Acme",
+        "record_type": "ack",
+        "date": "2026-05-20",
+        "relationship": "acknowledges",
+        "confirmed_mask": 5,
+        "declined_mask": 2
+      },
+      "url": "workpads.me/p#1pv/e6DIwODK1OQgwsDAzMAVlppckl-kkJiczcDimJybysLAwKK6hIGBjYmVgYlhvhcA&c=AbCd",
+      "hash": "1pv/e6DIwODK1OQgwsDAzMAVlppckl-kkJiczcDimJybysLAwKK6hIGBjYmVgYlhvhcA&c=AbCd"
+    },
+    {
+      "id": "payment-pays",
+      "record": {
+        "job": "Vector pay",
+        "customer": "Acme",
+        "record_type": "payment",
+        "date": "2026-05-20",
+        "amount": "50.00",
+        "currency": "GBP"
+      },
+      "url": "workpads.me/p#1pv/e8CQwM7U5cLB4MAgwCDEINwhwsDAzMAVlppckl-kUJBYycDimJybysLAwKK6hImZ8QwA&c=XyZ1",
+      "hash": "1pv/e8CQwM7U5cLB4MAgwCDEINwhwsDAzMAVlppckl-kUJBYycDimJybysLAwKK6hImZ8QwA&c=XyZ1"
+    },
+    {
+      "id": "schedule-g2",
+      "record": {
+        "job": "Site visit",
+        "customer": "Beta",
+        "record_type": "schedule",
+        "date": "2026-06-01",
+        "location": "Unit 4"
+      },
+      "url": "workpads.me/p#1pv/W8DBwMDK1OAgwsDAzMAVnFmSqlCWWZxZwsDilFqSyMPAwKO6gYEtNC-zRMHEyA4A",
+      "hash": "1pv/W8DBwMDK1OAgwsDAzMAVnFmSqlCWWZxZwsDilFqSyMPAwKO6gYEtNC-zRMHEyA4A"
+    },
+    {
+      "id": "work-record-g4",
+      "record": {
+        "job": "Repair boiler",
+        "customer": "Gamma",
+        "record_type": "work_record",
+        "date": "2026-05-22",
+        "details": "Replaced valve",
+        "actions": [
+          {
+            "title": "Test",
+            "notes": ""
+          }
+        ]
+      },
+      "url": "workpads.me/p#1pv/W8BgIMrU4CDBwMDMwBuUWpCYWaSQlJ-Zk1rEwOqemJubyMLAwKK6TIKBDUiHpBaXMPABVeUkJqemKJQl5pSlsm8HAA",
+      "hash": "1pv/W8BgIMrU4CDBwMDMwBuUWpCYWaSQlJ-Zk1rEwOqemJubyMLAwKK6TIKBDUiHpBaXMPABVeUkJqemKJQl5pSlsm8HAA"
+    },
+    {
+      "id": "note-g5",
+      "record": {
+        "job": "Daily note",
+        "customer": "Self",
+        "record_type": "note",
+        "date": "2026-05-23",
+        "story": "All quiet"
+      },
+      "url": "workpads.me/p#1pv/W8DgoMrU4CDCwMDMwOWSmJlTqZCXX5LKwBKcmpPGwsDAorqcl4GDgYHTMSdHobA0M7WEIxEA",
+      "hash": "1pv/W8DgoMrU4CDCwMDMwOWSmJlTqZCXX5LKwBKcmpPGwsDAorqcl4GDgYHTMSdHobA0M7WEIxEA"
+    },
+    {
+      "id": "need-noc",
+      "record": {
+        "job": "Need plumber",
+        "customer": "Delta",
+        "record_type": "need",
+        "date": "2026-05-24"
+      },
+      "url": "workpads.me/p#1pv/WyDGwCDK1OAgzsDAzMDjl5qaolCQU5qblFrEwOqSmlOSyMLAwKK6goGhfh0A",
+      "hash": "1pv/WyDGwCDK1OAgzsDAzMDjl5qaolCQU5qblFrEwOqSmlOSyMLAwKK6goGhfh0A"
+    },
+    {
+      "id": "job-default",
+      "record": {
+        "job": "Default job type",
+        "customer": "Epsilon",
+        "record_type": "job",
+        "date": "2026-05-24",
+        "details": "Work done"
+      },
+      "url": "workpads.me/p#1pv/W6DIwCDK1OAgy8DAzCDgkpqWWJpTopCVn6RQUlmQysDuWlCcmZOfx8LAwKK6gpcBSHOG5xdlK6Tk56VumgMA",
+      "hash": "1pv/W6DIwCDK1OAgy8DAzCDgkpqWWJpTopCVn6RQUlmQysDuWlCcmZOfx8LAwKK6gpcBSHOG5xdlK6Tk56VumgMA"
+    }
+  ]
+}

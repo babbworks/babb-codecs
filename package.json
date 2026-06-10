@@ -1,0 +1,16 @@
+{
+  "name": "@workpads/codec",
+  "version": "0.1.0",
+  "description": "Workpads record encoder/decoder — bitpad-v1 + fflate + base64url",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/codec.test.js && node test/native-v1-split.test.js && node test/1pv-fixtures.test.js"
+  },
+  "dependencies": {
+    "fflate": "^0.8.2"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  }
+}
